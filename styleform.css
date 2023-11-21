@@ -1,0 +1,118 @@
+@font-face {font-family: "MTN";
+    src: url("font/@font-face/4baee4a2550da10078fd0d6dd9440bc1.eot"); /* IE9*/
+    src: url("font/@font-face/4baee4a2550da10078fd0d6dd9440bc1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/@font-face/4baee4a2550da10078fd0d6dd9440bc1.woff2") format("woff2"), /* chrome、firefox */
+    url("font/@font-face/4baee4a2550da10078fd0d6dd9440bc1.woff") format("woff"), /* chrome、firefox */
+    url("font/@font-face/4baee4a2550da10078fd0d6dd9440bc1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/@font-face/4baee4a2550da10078fd0d6dd9440bc1.svg#MTN Brighter Sans Regular") format("svg"); /* iOS 4.1- */
+}
+
+*{
+    font-family: "MTN";
+    color: #6b6b6b;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 90px;
+}
+li {
+    list-style-type: none;
+    padding: 0 10px 0 10px;
+}
+li:hover {
+    color: #272727;
+}
+.btn-nav a {
+    background: #750000;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+/* === navbar === */
+
+header .navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),  0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    position: ixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 50px;
+    display: block;
+}
+.btn-nav a {
+    background: #750000;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+
+/* === Accueuil === */
+
+#form-bg {
+    padding-top: 60px;
+    background: url(media/images/form-bg.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 600px;
+}
+table{
+    margin-top: 80px;
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.7);
+    padding: 50px;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #09005e;
+    width: 90%;
+    margin: 15px 0;
+    background-color: transparent;
+}
+
+.btn {
+    padding: 5px 7px;
+    background: #09005e;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: #ffffff;
+    border: 2px;
+    border-color: #09005e;
+    box-shadow: 3px 4px 5px 4px rgba(1, 0, 80, 0.952);
+    color: #09005e;
+}
+
+footer {
+    background: #ffffff;
+    color: #292929;
+    text-align: center;
+    padding: 20px;
+    text-transform: underline overline;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+}
